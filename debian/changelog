@@ -1,0 +1,8 @@
+guideos-power-profiles-spice (1.0-1) unstable; urgency=medium
+
+  * Initial release for Debian packaging
+  * Added Cinnamon applet installation
+  * Added German translation and locale
+  * Included license and documentation
+
+ -- Actionschnitzel <actionschnitzel@guideos.de>  Sun, 14 Sep 2025 12:00:00 +0000

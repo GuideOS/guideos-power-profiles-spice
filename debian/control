@@ -1,0 +1,14 @@
+Source: guideos-power-profiles-spice
+Section: misc
+Priority: optional
+Maintainer: Actionschnitzel <actionschnitzel@guideos.de>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 1.0
+Homepage: https://guideos.de
+
+Package: guideos-power-profiles-spice
+Architecture: all
+Depends: ${misc:Depends}, bash
+Description: An applet to modify the current system power profile
+ This package provides a simple applet to modify the current system power profile.
+ It is designed to work with the "spice" power profiles daemon.

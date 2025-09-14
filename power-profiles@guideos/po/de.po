@@ -1,0 +1,129 @@
+# POWER PROFILES
+# German translation for power-profiles@guideos
+# Copyright (C) 2025
+# guideos, 2025
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: power-profiles@guideos 1.1\n"
+"Report-Msgid-Bugs-To:  https://github.com/GuideOS/guideos-power-profiles-spice\n"
+"POT-Creation-Date: 2024-09-15 16:04-0400\n"
+"PO-Revision-Date: 2025-09-14 12:00+0000\n"
+"Last-Translator: DE Translator <translator@example.com>\n"
+"Language-Team: German <de@example.com>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#. 5.4/applet.js:25
+msgid "Power Saver"
+msgstr "Energiesparen"
+
+#. 5.4/applet.js:26
+msgid "Balanced"
+msgstr "Ausgewogen"
+
+#. 5.4/applet.js:27
+msgid "Performance"
+msgstr "Leistung"
+
+#. 5.4/applet.js:60
+msgid "Power Profiles Applet Error"
+msgstr "Fehler im Energieprofile-Applet"
+
+#. 5.4/applet.js:61
+msgid "The system package 'power-profiles-daemon' is not installed.\n\nPlease install it and reload the applet."
+msgstr "Das Systempaket 'power-profiles-daemon' ist nicht installiert.\n\nBitte installieren Sie es und laden Sie das Applet neu."
+
+#. 5.4/applet.js:63
+msgid "Open README"
+msgstr "README öffnen"
+
+#. 5.4/applet.js:64
+msgid "Open Website"
+msgstr "Webseite öffnen"
+
+#. 5.4/applet.js:88 5.4/applet.js:94
+msgid "Please make sure the power-profiles-daemon package is installed and the service is running."
+msgstr "Bitte stellen Sie sicher, dass das Paket power-profiles-daemon installiert ist und der Dienst läuft."
+
+#. 5.4/applet.js:89
+msgid "exception:"
+msgstr "Ausnahme:"
+
+#. 5.4/applet.js:138
+msgid "Current Profile:"
+msgstr "Aktuelles Profil:"
+
+#. 5.4/applet.js:143
+msgid "Performance Degraded:"
+msgstr "Leistung verringert:"
+
+#. 5.4/applet.js:154
+msgid "Active Profile Holds:"
+msgstr "Aktive Profil-Sperren:"
+
+#. metadata.json->description
+msgid "An applet to modify the current system power profile as determined by power-profiles-daemon"
+msgstr "Ein Applet zum Ändern des aktuellen System-Energieprofils, wie vom power-profiles-daemon bestimmt."
+
+#. metadata.json->name
+msgid "Power Profiles"
+msgstr "Energieprofile"
+
+#. 5.4->settings-schema.json->section1->description
+msgid "Keyboard Shortcuts"
+msgstr "Tastenkombinationen"
+
+#. 5.4->settings-schema.json->previousProfileKey->description
+msgid "Previous profile"
+msgstr "Vorheriges Profil"
+
+#. 5.4->settings-schema.json->previousProfileKey->tooltip
+msgid "Set keybinding(s) to switch to previous power profile."
+msgstr "Legen Sie Tastenkombinationen fest, um zum vorherigen Energieprofil zu wechseln."
+
+#. 5.4->settings-schema.json->nextProfileKey->description
+msgid "Next profile"
+msgstr "Nächstes Profil"
+
+#. 5.4->settings-schema.json->nextProfileKey->tooltip
+msgid "Set keybinding(s) to switch to next power profile."
+msgstr "Legen Sie Tastenkombinationen fest, um zum nächsten Energieprofil zu wechseln."
+
+#. 5.4->settings-schema.json->cycleProfiles->description
+msgid "Cycle through profiles when using keyboard shortcuts"
+msgstr "Profile beim Verwenden von Tastenkombinationen durchlaufen"
+
+#. 5.4->settings-schema.json->cycleProfiles->tooltip
+msgid "If enabled, if the current profile is 'Power Saver' and the 'Previous profile' keyboard shortcut is used, the next profile would be 'Performance' (or 'Balanced' on some systems).\n\nIf disabled, if the current profile is 'Power Saver' and the 'Previous profile' keyboard shortcut is used, the profile would not change."
+msgstr "Wenn aktiviert, wird beim aktuellen Profil 'Energiesparen' und der Tastenkombination für das vorherige Profil das nächste Profil 'Leistung' (oder 'Ausgewogen' auf manchen Systemen) gewählt.\n\nWenn deaktiviert, ändert sich das Profil bei 'Energiesparen' und der Tastenkombination für das vorherige Profil nicht."
+
+#. 5.4->settings-schema.json->showOSD->description
+msgid "On-screen display for keyboard shortcuts"
+msgstr "Bildschirmanzeige für Tastenkombinationen"
+
+#. 5.4->settings-schema.json->showOSD->tooltip
+msgid "Show on-screen display of the new profile when using the keyboard shortcuts"
+msgstr "Zeige die Bildschirmanzeige des neuen Profils beim Verwenden der Tastenkombinationen"
+
+#. 5.4->settings-schema.json->section2->description
+msgid "Appearance"
+msgstr "Aussehen"
+
+#. 5.4->settings-schema.json->iconStyle->description
+msgid "Icon Style"
+msgstr "Symbolstil"
+
+#. 5.4->settings-schema.json->iconStyle->options
+msgid "Classic"
+msgstr "Klassisch"
+
+#. 5.4->settings-schema.json->iconStyle->options
+msgid "Papirus"
+msgstr "Papirus"
+
+#. 5.4->settings-schema.json->iconStyle->tooltip
+msgid "Choose the style of the applet's icon. This is used for the panel and the on-screen display."
+msgstr "Wählen Sie den Stil des Applet-Symbols. Dieser wird für das Panel und die Bildschirmanzeige verwendet."
